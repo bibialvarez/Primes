@@ -1,0 +1,117 @@
+*{
+  outline: 1px solid red;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+.header-down{
+  height: 800px;
+  z-index: 0;
+  background: url("../img/background/hero.jpg")top center;
+}
+.header-up{
+  height: 800px;
+  padding-top:100px; 
+  width: 100%;
+  z-index: 1;
+  background:rgba(0,0,0,0.6);
+}
+.logo{
+  height: 50px;
+  width: 150px;
+  display: inline;
+}
+.star{
+  height: 30px;
+  width: 30px;
+  display: inline;
+}
+.inline{
+  display: inline;
+}
+nav{
+  float: right;
+}
+.face{
+  margin: 200px auto;
+}
+.bn1{
+  background: #2c3138;
+  margin-left: 35%;
+}
+.bn2{
+  background-color: transparent;
+  border:rgba(0,0,0,0.6); 
+}
+.laptop{
+  height: 300px;
+  width: auto;
+  margin: 0 auto;
+}
+.menu_interno{
+  text-align: center;
+}
+.menu_interno li{
+  display: inline;
+  list-style: none;
+  padding: 12px;
+}
+.bottom{
+  height: 50px;
+  width: 100px;
+  background: black;
+  margin: 0 auto;
+}
+.call_to_action_down{
+  background: url("../img/background/city.jpg");
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+}
+.call_to_action_up{
+  z-index: 1;
+  position: relative;
+  padding: 150px 0;
+  background:rgba(0,0,0,0.6);
+}
+.back-gray{
+  background: gray;
+  padding-bottom: 50px;
+}
+.bg-black,.bg-blue{
+  height: 75px;
+  padding-top: 10px;
+}
+.bg-black{
+  background: black;
+  margin-top: 20px;
+}
+.bg-blue{
+  background: blue;
+  margin-top: 20px;
+}
+.bg-gray{
+  background: gray;
+  padding-top: 10px;
+  height: 100px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+.bg-white{
+  background: white;
+}
+.customer{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+hr{
+  background: gray;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
