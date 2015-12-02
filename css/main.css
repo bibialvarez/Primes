@@ -1,14 +1,10 @@
-/*scrum karla*/
-*{
-  outline: 1px solid red;
-}
 body{
   margin: 0;
   padding: 0;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
 }
-nav{
+.menu,.right{
   float: right;
 }
 hr{
@@ -30,10 +26,13 @@ a{
   z-index: 1;
   background:rgba(0,0,0,0.6);
 }
+.menu{
+  margin: 12px;
+}
 .menu_interno{
   text-align: center;
 }
-.menu_interno li{
+.menu_interno li,.menu li{
   display: inline;
   list-style: none;
   padding: 12px;
@@ -90,6 +89,9 @@ a{
 .fat{
   font-size: 25px;
 }
+.text-black{
+  color: black;
+}
 /*-----------backgrounds----------*/
 .back-gray{
   background: #f2f2f2;
@@ -117,12 +119,17 @@ a{
   background: white;
 }
 /*-----------botones----------*/
-.bn1{
-  margin-left: 35%;
+.bn1,.bn2{
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  font-size: 19px;
+  margin: 0 auto;
 }
 .bn2{
   background: white;
   opacity: 0.1;
+
 }
 .bn1,.bn3{
    background: #2c3138;

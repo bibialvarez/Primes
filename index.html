@@ -22,24 +22,26 @@
           <img class="img-responsive star" src="img/star.png" alt="">
           <h4 class="text-white inline">PRIMES</h4>
         </div>
-        <nav class="">
-          <div  id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a class="active" href="index.html"><strong>Home</strong></a></li>
-              <li><a href="#Features"><strong>Features</strong></a></li>
-              <li><a href="#Portafolio"><strong>Portafolio</strong></a></li>
-              <li><a href="#Pricing"><strong>Pricing</strong></a></li>
-              <li><a href="#Contact"><strong>Contact</strong></a></li>
-            </ul>
-          </div>
-        </nav>
+        <div class="menu">
+          <ul>
+            <li><a class="active" href="index.html"><strong>Home</strong></a></li>
+            <li><a href="#Features"><strong>Features</strong></a></li>
+            <li><a href="#Portafolio"><strong>Portafolio</strong></a></li>
+            <li><a href="#Pricing"><strong>Pricing</strong></a></li>
+            <li><a href="#Contact"><strong>Contact</strong></a></li>
+          </ul>
+        </div>
         <div class="face">
           <h1 class="text-center text-white"> Launch Your <strong>Business</strong> with <strong>Primes</strong></h1>
           <br>
           <p class="text-center text-white">Vivamus commodo felis quis dui pharetra,ac venenatis magna lacinia.Vestibulum quis dignissim nibh.Duis vitae felis orci.</p>
           <br>
-          <button type="button" class="btn bn1 btn-lg text-white">Our Portafolio</button>
-          <button type="button" class="btn bn2 btn-lg text-white">Learn More</button>
+          <div class="bn1">
+            <a class="text-white inline" href="">Our Portafolio</a>
+          </div>
+          <div class="bn2">
+            <a class="text-white inline" href="">Learn More</a>
+          </div>
         </div>
       </div>
     </div>
@@ -158,11 +160,11 @@
         <br>
         <div class="menu_interno">
           <ul>
-            <li class="activebg"><a class="mg" href="#"><strong>Show All</strong></a></li>
-            <li class="bg-white"><a class="mg" href="#"><strong>Identity</strong></a></li>
-            <li class="bg-white"><a class="mg" href="#"><strong>Web design</strong></a></li>
-            <li class="bg-white"><a class="mg" href="#"><strong>Graphic</strong></a></li>
-            <li class="bg-white"><a class="mg" href="#"><strong>Logo</strong></a></li>
+            <li class="activebg"><a class="text-black" href="#"><strong>Show All</strong></a></li>
+            <li class="bg-white"><a class="text-black" href="#"><strong>Identity</strong></a></li>
+            <li class="bg-white"><a class="text-black" href="#"><strong>Web design</strong></a></li>
+            <li class="bg-white"><a class="text-black" href="#"><strong>Graphic</strong></a></li>
+            <li class="bg-white"><a class="text-black" href="#"><strong>Logo</strong></a></li>
           </ul>
           <br>
         </div>
@@ -217,7 +219,9 @@
           </div>
         </div>
         <br>
-        <button type="button" class="btn btn-lg bn3 text-white">Load More</button>
+        <div class="bn1">
+          <a class="text-white" href="">Our Portafolio</a>
+        </div>
       </div>
   </div>
   <div id="Pricing">
@@ -228,7 +232,7 @@
         <br>
         <br>
         <div class="bn2">
-          <button type="button" class="btn btn-lg text-white "><strong>Call to Action</strong></button>
+          <a class="text-white" href="">Call to Action</a>
         </div>
       </div>
     </div>
@@ -239,64 +243,76 @@
           <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra,per inceptos himenaeos.</p>
         </div>
         <div class="row">
-          <div class="col-md-4 col-xs-12 bg-white">
-            <div class="bg-black mg-t-20">
-              <h3 class="text-white">Standard</h3>
-            </div>
-            <div class="bg-gray">
-              <h4>From <span class="fat">$45</span>.99 per month</h4>
-            </div>
-            <div>
-              <p class="text-gray">Vestibulum est magna</p>
-              <hr>
-              <p class="text-gray"> Mauris auctor massa libero</p>
-              <hr>
-              <p class="text-gray">Praesent magna tortor</p>
-              <hr>
-              <p class="text-gray">cras et fermentum massa</p>
-              <hr>
-              <button type="button" class="btn btn-lg bn3 text-white">Purchase</button>
-              <hr>
-            </div>
-          </div>
-          <div class="col-md-4 col-xs-12 bg-white">
-            <div class="bg-blue" >
-              <h3 class="text-white">Premium</h3>
-            </div>
-            <div class="bg-gray">
-              <h4>From <span class="fat">$75</span>.99 per month</h4>
-            </div>
-            <div>
-              <p class="text-gray">Vestibulum est magna</p>
-              <hr>
-              <p class="text-gray"> Mauris auctor massa libero</p>
-              <hr>
-              <p class="text-gray">Praesent magna tortor</p>
-              <hr>
-              <p class="text-gray">cras et fermentum massa</p>
-              <hr>
-              <button type="button" class="btn btn-lg bn3 text-white">Purchase</button>
-              <hr>
+          <div class="col-md-4 col-xs-12 back-gray">
+            <div class="bg-white pd-10">
+              <div class="bg-black mg-t-20">
+                <h3 class="text-white">Standard</h3>
+              </div>
+              <div class="bg-gray">
+                <h4>From <span class="fat">$45</span>.99 per month</h4>
+              </div>
+              <div>
+                <p class="text-gray">Vestibulum est magna</p>
+                <hr>
+                <p class="text-gray"> Mauris auctor massa libero</p>
+                <hr>
+                <p class="text-gray">Praesent magna tortor</p>
+                <hr>
+                <p class="text-gray">cras et fermentum massa</p>
+                <hr>
+                <div class="bn1">
+                  <a class="text-white" href="">Purchase</a>
+                </div>
+                <hr>
+              </div>
             </div>
           </div>
-          <div class="col-md-4 col-xs-12 bg-white">
-            <div class="bg-black mg-t-20">
-              <h3 class="text-white">Ultimate</h3>
+          <div class="col-md-4 col-xs-12 back-gray">
+            <div class="bg-white pd-10">
+              <div class="bg-blue" >
+                <h3 class="text-white">Premium</h3>
+              </div>
+              <div class="bg-gray">
+                <h4>From <span class="fat">$75</span>.99 per month</h4>
+              </div>
+              <div>
+                <p class="text-gray">Vestibulum est magna</p>
+                <hr>
+                <p class="text-gray"> Mauris auctor massa libero</p>
+                <hr>
+                <p class="text-gray">Praesent magna tortor</p>
+                <hr>
+                <p class="text-gray">cras et fermentum massa</p>
+                <hr>
+                <div class="bn1">
+                  <a class="text-white" href="">Purchase</a>
+                </div>
+                <hr>
+              </div>
             </div>
-            <div class="bg-gray">
-              <h4>From <span class="fat">$99</span>.99 per month</h4>
-            </div>
-            <div>
-              <p class="text-gray">Vestibulum est magna</p>
-              <hr>
-              <p class="text-gray"> Mauris auctor massa libero</p>
-              <hr>
-              <p class="text-gray">Praesent magna tortor</p>
-              <hr>
-              <p class="text-gray">cras et fermentum massa</p>
-              <hr>
-              <button type="button" class="btn btn-lg bn3 text-white">Purchase</button>
-              <hr>
+          </div>
+          <div class="col-md-4 col-xs-12 back-gray">
+            <div class="bg-white pd-10">
+              <div class="bg-black mg-t-20">
+                <h3 class="text-white">Ultimate</h3>
+              </div>
+              <div class="bg-gray">
+                <h4>From <span class="fat">$99</span>.99 per month</h4>
+              </div>
+              <div>
+                <p class="text-gray">Vestibulum est magna</p>
+                <hr>
+                <p class="text-gray"> Mauris auctor massa libero</p>
+                <hr>
+                <p class="text-gray">Praesent magna tortor</p>
+                <hr>
+                <p class="text-gray">cras et fermentum massa</p>
+                <hr>
+                <div class="bn1">
+                  <a class="text-white" href="">Purchase</a>
+                </div>
+                <hr>
+              </div>
             </div>
           </div>
         </div>
@@ -309,7 +325,7 @@
         <p class="pd"><strong>-Diana Rosswert</strong></p>
     </div>
   </div>
-  <div id="Contact" class="">
+  <div id="Contact">
     <div class="contact-down">
       <div class="contact-up text-white">
         <div class="container text-center pd">
@@ -332,6 +348,8 @@
             <br>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nesciunt vero explicabo laudantium corporis deleniti labore fuga, delectus dolore, non, harum dolores commodi earum possimus sed modi. Dolores aut, perferendis.</p>
             <br>
+          </div>
+          <div class="col-md-6 right">
             <h3><strong>Address</strong></h3>
             <br>
             <i class="iw ion-ios-location"></i>
@@ -361,15 +379,9 @@
     </div>
     <div class="end bg-black text-center">
       <br>
-      <p class="text-gray ">© primes 2015 - laboratoria.la</p>
+      <p class="text-gray"> © primes 2015 - laboratoria.la</p>
     </div>
-  </div> 
-
-
-
-
-
-
+  </div>
   <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
