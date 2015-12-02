@@ -8,6 +8,16 @@ body{
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
 }
+nav{
+  float: right;
+}
+hr{
+  background: #ededed;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
 .header-down{
   height: 800px;
   z-index: 0;
@@ -20,6 +30,39 @@ body{
   z-index: 1;
   background:rgba(0,0,0,0.6);
 }
+.menu_interno{
+  text-align: center;
+}
+.menu_interno li{
+  display: inline;
+  list-style: none;
+  padding: 12px;
+}
+.section-call-to-action-down{
+  height: 500px;
+  background: url("../img/background/city.jpg")top center;
+  background-size: cover;
+  z-index: 0;
+}
+.call-to-action-up{
+  height: 500px;
+  z-index: 1;
+  padding: 150px 0;
+  background:rgba(0,0,0,0.6);
+}
+.contact-down{
+  height: 800px;
+  z-index: 0;
+  background:url("../img/background/contactus.jpg")center center;
+  background-size: cover;
+}
+.contact-up{
+  height: 800px;
+  z-index: 1;
+  background:rgba(0,0,0,0.6);
+}
+
+/*-----------classes unicas----------*/
 .logo{
   height: 50px;
   width: 150px;
@@ -36,81 +79,18 @@ body{
 .inline{
   display: inline;
 }
-nav{
-  float: right;
-}
 .face{
   margin: 200px auto;
 }
-.bn1{
-  background: #2c3138;
-  margin-left: 35%;
-}
-.bn2{
-  background: white;
-  opacity: 0.1;
-}
-.bn3{
-   background: #2c3138;
-}
-
-.pd{
-  padding: 40px;
-}
-.mg{
-  margin: 20px;
-  color: black;
-}
-.active{
-  color:#009ba6;
-}
-.activebg{
-  background: #009ba6;
-}
-.laptop{
-  height: 300px;
-  width: auto;
-  margin: 0 auto;
-}
-i,.ib{
-  font-size: 50px;
-  color:#0dbfbf;
-}
-.ib{
-  color: black;
-  margin-right: 20px;
-}
-.iw{
-  color: white;
-  font-size: 20px;display: inline;
-  margin-right: 10px;
-}
-.menu_interno{
-  text-align: center;
-}
-.menu_interno li{
-  display: inline;
-  list-style: none;
-  padding: 12px;
-}
-.bottom{
-  height: 50px;
+.customer{
+  border-radius: 50%;
+  height: 100px;
   width: 100px;
-  background: #2e3138;
-  margin: 0 auto;
 }
-.section-call-to-action-down{
-  height: 500px;
-  background: url("../img/background/city.jpg")top center;
-  background-size: cover;
-  z-index: 0;
+.fat{
+  font-size: 25px;
 }
-.call-to-action-up{
-  height: 500px;
-  z-index: 1;
-  padding: 150px 0;
-  background:rgba(0,0,0,0.6);
-}
+/*-----------backgrounds----------*/
 .back-gray{
   background: #f2f2f2;
   padding-bottom: 50px;
@@ -121,7 +101,6 @@ i,.ib{
 }
 .bg-black{
   background: #323a45;
-  margin-top: 20px;
 }
 .bg-blue{
   background: #0dbfbf;
@@ -137,30 +116,65 @@ i,.ib{
 .bg-white{
   background: white;
 }
-.contact-down{
-  height: 800px;
-  z-index: 0;
-  background:url("../img/background/contactus.jpg")center center;
-  background-size: cover;
+/*-----------botones----------*/
+.bn1{
+  margin-left: 35%;
 }
-.contact-up{
-  height: 800px;
-  z-index: 1;
-  background:rgba(0,0,0,0.6);
+.bn2{
+  background: white;
+  opacity: 0.1;
 }
-.customer{
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
+.bn1,.bn3{
+   background: #2c3138;
 }
-hr{
-  background: #ededed;
+.bn4{
+  margin-left: 35%;
+  background: #0dbfbf;
 }
-a{
-  text-decoration: none;
-  color: white;
+/*--------paddings-------*/
+.pd{
+  padding: 40px;
 }
+.pd-10{
+  padding: 10px;
+}
+/*--------margenes-------*/
 .mg-o{
   margin-left: auto;
   margin-right: auto;
+}
+.mg{
+  margin: 20px;
+  color: black;
+}
+.mg-t-20{
+  margin-top: 20px;
+}
+.active{
+  color:#009ba6;
+}
+.activebg{
+  background: #009ba6;
+}
+.activebg a{
+  color: white;
+}
+.laptop{
+  height: 300px;
+  width: auto;
+  margin: 0 auto;
+}
+/*--------iconoss-------*/
+i,.ib{
+  font-size: 50px;
+  color:#0dbfbf;
+}
+.ib{
+  color: black;
+  margin-right: 20px;
+}
+.iw{
+  color: white;
+  font-size: 20px;display: inline;
+  margin-right: 10px;
 }
