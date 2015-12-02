@@ -1,3 +1,4 @@
+/*scrum karla*/
 *{
   outline: 1px solid red;
 }
@@ -14,7 +15,7 @@ body{
 }
 .header-up{
   height: 800px;
-  padding-top:100px; 
+  padding-top:60px;
   width: 100%;
   z-index: 1;
   background:rgba(0,0,0,0.6);
@@ -23,6 +24,9 @@ body{
   height: 50px;
   width: 150px;
   display: inline;
+  padding: 20px;
+  top: 17px;
+  position: relative;
 }
 .star{
   height: 30px;
@@ -43,13 +47,43 @@ nav{
   margin-left: 35%;
 }
 .bn2{
-  background-color: transparent;
-  border:rgba(0,0,0,0.6); 
+  background: white;
+  opacity: 0.1;
+}
+.bn3{
+   background: #2c3138;
+}
+
+.pd{
+  padding: 40px;
+}
+.mg{
+  margin: 20px;
+  color: black;
+}
+.active{
+  color:#009ba6;
+}
+.activebg{
+  background: #009ba6;
 }
 .laptop{
   height: 300px;
   width: auto;
   margin: 0 auto;
+}
+i,.ib{
+  font-size: 50px;
+  color:#0dbfbf;
+}
+.ib{
+  color: black;
+  margin-right: 20px;
+}
+.iw{
+  color: white;
+  font-size: 20px;display: inline;
+  margin-right: 10px;
 }
 .menu_interno{
   text-align: center;
@@ -62,23 +96,23 @@ nav{
 .bottom{
   height: 50px;
   width: 100px;
-  background: black;
+  background: #2e3138;
   margin: 0 auto;
 }
-.call_to_action_down{
-  background: url("../img/background/city.jpg");
+.section-call-to-action-down{
+  height: 500px;
+  background: url("../img/background/city.jpg")top center;
   background-size: cover;
   z-index: 0;
-  position: relative;
 }
-.call_to_action_up{
+.call-to-action-up{
+  height: 500px;
   z-index: 1;
-  position: relative;
   padding: 150px 0;
   background:rgba(0,0,0,0.6);
 }
 .back-gray{
-  background: gray;
+  background: #f2f2f2;
   padding-bottom: 50px;
 }
 .bg-black,.bg-blue{
@@ -86,15 +120,15 @@ nav{
   padding-top: 10px;
 }
 .bg-black{
-  background: black;
+  background: #323a45;
   margin-top: 20px;
 }
 .bg-blue{
-  background: blue;
+  background: #0dbfbf;
   margin-top: 20px;
 }
 .bg-gray{
-  background: gray;
+  background: #f0f0f0;
   padding-top: 10px;
   height: 100px;
   padding-top: 30px;
@@ -103,15 +137,30 @@ nav{
 .bg-white{
   background: white;
 }
+.contact-down{
+  height: 800px;
+  z-index: 0;
+  background:url("../img/background/contactus.jpg")center center;
+  background-size: cover;
+}
+.contact-up{
+  height: 800px;
+  z-index: 1;
+  background:rgba(0,0,0,0.6);
+}
 .customer{
   border-radius: 50%;
   height: 100px;
   width: 100px;
 }
 hr{
-  background: gray;
+  background: #ededed;
 }
 a{
   text-decoration: none;
   color: white;
+}
+.mg-o{
+  margin-left: auto;
+  margin-right: auto;
 }
