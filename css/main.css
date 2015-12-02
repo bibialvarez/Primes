@@ -1,3 +1,7 @@
+/*scrum karla*/
+*{
+  outline: 1px solid red;
+}
 body{
   margin: 0;
   padding: 0;
@@ -13,6 +17,9 @@ hr{
 a{
   text-decoration: none;
   color: white;
+}
+.img-responsive{
+  width: 100%;
 }
 .header-down{
   height: 800px;
@@ -50,13 +57,11 @@ a{
   background:rgba(0,0,0,0.6);
 }
 .contact-down{
-  height: 800px;
   z-index: 0;
   background:url("../img/background/contactus.jpg")center center;
   background-size: cover;
 }
 .contact-up{
-  height: 800px;
   z-index: 1;
   background:rgba(0,0,0,0.6);
 }
@@ -127,9 +132,7 @@ a{
   margin: 0 auto;
 }
 .bn2{
-  background: white;
-  opacity: 0.1;
-
+  background:rgba(255,255,255,0.3); 
 }
 .bn1,.bn3{
    background: #2c3138;
@@ -182,6 +185,7 @@ i,.ib{
 }
 .iw{
   color: white;
-  font-size: 20px;display: inline;
+  font-size: 20px;
+  display: inline;
   margin-right: 10px;
 }
