@@ -1,7 +1,4 @@
 /*scrum karla*/
-*{
-  outline: 1px solid red;
-}
 body{
   margin: 0;
   padding: 0;
@@ -96,6 +93,13 @@ a{
 }
 .text-black{
   color: black;
+}
+.face .bn1{
+  display: inline-block;
+  margin-left: 30%;
+}
+.face .bn2{
+  display: inline-block;
 }
 /*-----------backgrounds----------*/
 .back-gray{
